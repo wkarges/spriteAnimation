@@ -7,7 +7,7 @@
 //
 
 #include "Diver.h"
-
+//Define default settings for diver class
 Diver::Diver() {
     pos = ofVec2f(100, 150) ;
     vel = ofVec2f(ofRandom(2, 5), 0) ;
